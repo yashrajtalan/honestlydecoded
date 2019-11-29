@@ -18,6 +18,7 @@ export default {
    ** Headers of the page
    */
   head: head,
+  script: [{ src: '~plugins/ga.js', mode: 'client' }],
   generate: {
     routes: otherRoutes.concat(getDynamicPaths(routeMap))
   },
