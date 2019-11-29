@@ -6,6 +6,7 @@ import plugins from './config/plugins'
 import build from './config/build'
 import css from './config/css'
 import { routeMap, otherRoutes } from './config/generate'
+
 export default {
   mode: 'universal',
   /*
@@ -31,7 +32,6 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  { src: '~plugins/ga.js', mode: 'client' }
   modules: modules,
   ...modulesSettings,
   /*
