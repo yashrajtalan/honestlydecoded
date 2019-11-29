@@ -18,16 +18,6 @@ export default {
    ** Headers of the page
    */
   head: head,
-  
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153574414-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153574414-1');
-</script>,
-
   generate: {
     routes: otherRoutes.concat(getDynamicPaths(routeMap))
   },
