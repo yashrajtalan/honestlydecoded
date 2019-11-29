@@ -8,6 +8,9 @@ import css from './config/css'
 import { routeMap, otherRoutes } from './config/generate'
 
 export default {
+  plugins: [
+    { src: '~plugins/ga.js', mode: 'client' }
+  ] //for plugins/ga.js to work
   mode: 'universal',
   /*
    ** Customize the progress-bar color
