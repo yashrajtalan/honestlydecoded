@@ -9,17 +9,17 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  siteName: 'Honestly Decoded',
+  tagline: 'Decoding new perspectives to simplify life',
+  featureImage: '/uploads/blur-city-feature.jpg',
+  logo: '/static/Honestlydecoded-resized.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: 'UA-153574414-1',
     debug: {
       enabled: false,
       sendHitTask: true
-      } // process.env.GOOGLE_ANALYTICS_ID
+    } // process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
     {
@@ -33,16 +33,6 @@ export default {
     {
       name: 'Categories',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
-      target: '_blank'
     }
   ],
   hero: {
@@ -64,21 +54,21 @@ export default {
   // Disqus
   disqus: {
     on: true,
-    loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    loadingStrategy: 'lazy', // Options: onload, lazy, button, was button as default
+    siteShortName: 'honestlydecoded' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
+    heading: 'Get our Newsletter',
     btnText: 'Subscribe',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://honestlydecoded.us4.list-manage.com/subscribe/post?u=90528760da565b01b7e725a70&amp;id=85b2cbef1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form'
     },
     custom: {
       on: false,
