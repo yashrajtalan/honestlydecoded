@@ -12,7 +12,7 @@ export default {
   siteName: 'Honestly Decoded',
   tagline: 'Decoding new perspectives to simplify life',
   featureImage: '/uploads/blur-city-feature.jpg',
-  logo: '/static/logonew.png', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/assets/uploads/logonew.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: 'UA-153574414-1',
