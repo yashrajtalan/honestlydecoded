@@ -3,6 +3,6 @@ export default [
   '~/plugins/OptiImage',
   '~/plugins/Disqus',
   '~/plugins/EventBus',
-  '~/plugins/Components',
-  '~/plugins/ga'
+  '~/plugins/Components'
+  //  '~/plugins/ga'
 ]
