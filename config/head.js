@@ -12,6 +12,16 @@ export default {
   link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   script: [
     {
+      src: 'https://www.googletagmanager.com/gtag/js?id=UA-153574414-1',
+      async: true
+    },
+    window.dataLayer = window.dataLayer || [],
+    function gtag() { dataLayer.push(arguments) },
+      gtag('js', new Date()),
+      gtag('config', 'UA-153574414-1')
+    ],
+  script: [
+    {
       src: 'https://identity.netlify.com/v1/netlify-identity-widget.js',
       defer: true,
       id: 'netlify-identity-widget-script'
