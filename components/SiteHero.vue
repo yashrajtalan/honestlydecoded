@@ -140,7 +140,7 @@ export default {
   .subtitle,
   .under-subtitle,
   .under-subtitle strong {
-    color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
   }
 }
 .hero-theme-light.hero {
